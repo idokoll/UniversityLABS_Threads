@@ -1,0 +1,141 @@
+{
+  "students": [
+    {
+      "name": "Zazu",
+      "department": "EE",
+      "status": "PhD",
+      "publications": 0,
+      "papersRead": 3,
+      "trainedModels": []
+    },
+    {
+      "name": "Simba",
+      "department": "Computer Science",
+      "status": "MSc",
+      "publications": 3,
+      "papersRead": 0,
+      "trainedModels": [
+        {
+          "name": "YOLO10",
+          "data": {
+            "type": "Images",
+            "size": 200000
+          },
+          "status": "Tested",
+          "results": "Good"
+        },
+        {
+          "name": "ResNet9000",
+          "data": {
+            "type": "Images",
+            "size": 200000
+          },
+          "status": "Tested",
+          "results": "Good"
+        },
+        {
+          "name": "LessEfficientNet",
+          "data": {
+            "type": "Images",
+            "size": 20000
+          },
+          "status": "Tested",
+          "results": "Bad"
+        },
+        {
+          "name": "DensestNet",
+          "data": {
+            "type": "Images",
+            "size": 200000
+          },
+          "status": "Tested",
+          "results": "Good"
+        }
+      ]
+    },
+    {
+      "name": "Nala",
+      "department": "Computer Science",
+      "status": "PhD",
+      "publications": 0,
+      "papersRead": 3,
+      "trainedModels": []
+    },
+    {
+      "name": "Timon",
+      "department": "SE",
+      "status": "MSc",
+      "publications": 0,
+      "papersRead": 3,
+      "trainedModels": []
+    },
+    {
+      "name": "Pumba",
+      "department": "Computer Science",
+      "status": "PhD",
+      "publications": 0,
+      "papersRead": 3,
+      "trainedModels": []
+    }
+  ],
+  "conferences": [
+    {
+      "name": "ICML",
+      "date": 20000,
+      "publications": [
+        {
+          "name": "YOLO10",
+          "data": {
+            "type": "Images",
+            "size": 200000
+          },
+          "status": "Tested",
+          "results": "Good"
+        }
+      ]
+    },
+    {
+      "name": "NeurIPS",
+      "date": 25000,
+      "publications": []
+    },
+    {
+      "name": "CVPR",
+      "date": 30000,
+      "publications": [
+        {
+          "name": "DensestNet",
+          "data": {
+            "type": "Images",
+            "size": 200000
+          },
+          "status": "Tested",
+          "results": "Good"
+        }
+      ]
+    },
+    {
+      "name": "ECCV",
+      "date": 40000,
+      "publications": [
+        {
+          "name": "ResNet9000",
+          "data": {
+            "type": "Images",
+            "size": 200000
+          },
+          "status": "Tested",
+          "results": "Good"
+        }
+      ]
+    },
+    {
+      "name": "AISTATS",
+      "date": 50000,
+      "publications": []
+    }
+  ],
+  "cpuTimeUsed": 5209,
+  "gpuTimeUsed": 56996,
+  "batchesProcessed": 760
+}
